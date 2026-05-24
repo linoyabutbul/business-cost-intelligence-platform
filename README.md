@@ -1,17 +1,17 @@
 # Business Cost Intelligence Platform
 
-## Overview
+## Project Goal
 
-This project analyzes real-world marketing and CRM pipeline data from contractor lead generation campaigns.
+This project analyzes real-world marketing and sales pipeline data from contractor lead generation campaigns.
 
-The goal of the project is to identify:
+The goal is to identify:
 - campaign efficiency
 - funnel bottlenecks
 - revenue opportunities
-- pipeline performance
 - marketing ROI
+- pipeline performance
 
-using Python, SQL, SQLite, and business analytics workflows.
+using Python, Pandas, and business analytics workflows.
 
 ---
 
@@ -19,20 +19,21 @@ using Python, SQL, SQLite, and business analytics workflows.
 
 - Python
 - Pandas
-- SQLite
-- SQL
-- Matplotlib
 - Jupyter Notebook
+- Matplotlib
 - GitHub
+- CSV / CRM exports
+- Marketing Analytics
+- Revenue Operations Analytics
 
 ---
 
 ## Datasets
 
 The project uses:
-- Facebook Ads campaign exports
 - CRM opportunity data
-- CRM contact data
+- contact data
+- Facebook Ads campaign data
 
 ---
 
@@ -63,59 +64,49 @@ Roofing campaigns produced fewer results with higher acquisition costs.
 A significant number of contacts did not progress into opportunities, indicating potential lead quality or follow-up issues.
 
 ### 5. Most Pipeline Value Was Concentrated in Closed Deals
-Revenue forecasting visibility across earlier pipeline stages was limited.
+Revenue forecasting visibility across early pipeline stages was limited.
 
 ### 6. Large Volume of Disqualified Leads
 Most opportunities were marked as "Not Interested / Disqualified", suggesting optimization opportunities in targeting and qualification processes.
 
 ---
 
-## Project Structure
+## Funnel Analysis
 
-```text
-business-cost-intelligence-platform/
-│
-├── data/
-├── database/
-├── notebooks/
-├── screenshots/
-├── sql/
-└── README.md
-```
+The project includes:
+- contact-to-opportunity funnel analysis
+- campaign performance analysis
+- revenue distribution analysis
+- pipeline stage analysis
+- KPI dashboards
 
 ---
 
 ## Sample Visualizations
 
-### Campaign Performance Analysis
+### Ad Spend by Campaign
 
-![Campaign Performance](screenshots/top_campaigns_results.png)
+![Ad Spend](screenshots/ad_spend_by_campaign.png)
 
-### Revenue vs Ad Spend
+### Results by Campaign
 
-![Revenue vs Spend](screenshots/revenue_vs_spend.png)
+![Results](screenshots/results_by_campaign.png)
 
 ### Pipeline Stage Distribution
 
-![Pipeline Distribution](screenshots/pipeline_stage_distribution.png)
+![Pipeline](screenshots/pipeline_stage_distribution.png)
 
----
+### Revenue by Pipeline Stage
 
-## SQL Analytics
-
-The project includes SQL business analysis queries such as:
-- top performing campaigns
-- pipeline distribution
-- revenue by pipeline stage
-- lead source analysis
+![Revenue](screenshots/revenue_by_pipeline_stage.png)
 
 ---
 
 ## Future Improvements
 
+- SQL transformations
 - BigQuery integration
-- Looker Studio dashboards
 - automated ETL pipelines
+- Looker Studio dashboard
 - anomaly detection
 - forecasting models
-- cloud data warehouse architecture

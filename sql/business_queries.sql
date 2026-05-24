@@ -17,7 +17,7 @@ print("Top Performing Campaigns")
 print(top_campaigns_sql.head(10))
 
 top_campaigns_sql.to_csv(
-    "../data/top_campaigns_sql.csv",
+    "data/top_campaigns_sql.csv",
     index=False
 )
 
@@ -39,7 +39,7 @@ print("\nPipeline Distribution")
 print(pipeline_distribution_sql)
 
 pipeline_distribution_sql.to_csv(
-    "../data/pipeline_distribution_sql.csv",
+    "data/pipeline_distribution_sql.csv",
     index=False
 )
 
@@ -60,7 +60,7 @@ print("\nRevenue by Pipeline Stage")
 print(revenue_by_stage_sql)
 
 revenue_by_stage_sql.to_csv(
-    "../data/revenue_by_stage_sql.csv",
+    "data/revenue_by_stage_sql.csv",
     index=False
 )
 
@@ -82,6 +82,6 @@ print("\nLead Sources")
 print(lead_sources_sql)
 
 lead_sources_sql.to_csv(
-    "../data/lead_sources_sql.csv",
+    "data/lead_sources_sql.csv",
     index=False
 )
