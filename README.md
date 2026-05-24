@@ -21,9 +21,9 @@ GitHub
 7. Generate insights for cost optimization
 
 **Key Questions**
-Which campaigns generate the highest ROI?
-What is the cost per lead and cost per appointment?
-Which contractors/customers are most profitable?
-Where are we wasting ad spend?
-How do operational costs affect margins?
-What is the projected monthly profit?
+- Which campaigns generate the highest ROI?
+- What is the cost per lead and cost per appointment?
+- Which contractors/customers are most profitable?
+- Where are we wasting ad spend?
+- How do operational costs affect margins?
+- What is the projected monthly profit?
